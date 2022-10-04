@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo-name {
+    grid-template-columns: 0.1fr 1fr;
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.logo {
+    background-color: #fff;
+}
+
+.name {
+    background-color: #000000;
+    color: #fff;
+    margin-left: -15px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.product__sign__in {
+    width: 424px;
+
+    margin: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.sign__email {
+    width: 424px;
+    height: 52px;
+    margin: 30px 0;
+    padding: 0 20px;
+}
+
+.sign__pass {
+    width: 424px;
+    height: 52px;
+    padding: 0 20px;
+}
+
+.product__sign__remember {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sign__checkbox {
+    width: 19px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 0.2px solid #000000;
+
+}
+
+.product__sign__account {
+    margin-left: 10px;
+}
+
+.product__sign__forget {
+    margin-left: auto;
+}
+
+.product__sign__register button {
+    width: 424px;
+    height: 52px;
+    margin: 20px 0;
+    border: 1px solid #7593FF;
+    background-color: #fff;
+}
+.product__sign__register button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7593FF;
+}
+
+.footer__info {
+    width: 1443px;
+    height: 333px;
+    background: #FBF7D1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 16px;
+    margin: 0px 40px;
+    margin-top: 64px;
+    margin-bottom: 10px;
+}
+
+.product__sign__login button {
+    width: 424px;
+    height: 52px;
+    border: none;
+    background: #CF2929;
+
+}
+
+.product__sign__login button a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.product__sign__you {
+    margin-top: 20px;
+}
+
+.product__sign__you a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.product__sign__register {
+    width: 424px;
+    height: 52px;
+}
+
+.stories {
+    margin: auto;
+}
+
+.adidasfor {
+    margin: auto;
+}
+
+.footer {
+    padding: 0 40px;
+    background-color: #fff;
+    margin: auto;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__sp {
+    margin: 40px 0;
+}
+
+.footer__sp span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer__sp p {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.footer__end {
+    width: 1442px;
+    height: 106px;
+    background: #4A4A4A;
+    display: flex;
+    align-items: center;
+    padding: 0 71px;
+    margin-bottom: 30px;
+}
+
+.footer__end__fix {
+    width: 56px;
+    height: 0px;
+    border: 1px solid #FFFCFC;
+    transform: rotate(90deg);
+    margin: 0 20px;
+}
+
+.footer__end__security {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__account {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__manufacturing {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__adidas {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}

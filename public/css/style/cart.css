@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo-name {
+    grid-template-columns: 0.1fr 1fr;
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.logo {
+    background-color: #fff;
+}
+
+.name {
+    background-color: #000000;
+    color: #fff;
+    margin-left: -15px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 62px;
+    margin-bottom: 30px;
+    padding: 0 40px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.cart {
+    width: 1354px;
+    background: #FFFFFF;
+    border: 8px solid #000000;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.check-btn {
+    width: 33px;
+    height: 36px;
+    background: #FCFAFA;
+    border: 5px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 30px;
+}
+
+.product__cart__img {
+    margin-left: 20px;
+    padding: 36px 0;
+}
+
+.product__cart {
+    display: flex;
+    align-items: center;
+
+}
+
+.product__cart__innerText {
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.product__cart__innerText p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+}
+
+.fix {
+    margin-top: 50px;
+
+    padding-bottom: 20px;
+}
+
+.product__cart__price {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #DF2121;
+    margin-left: 200px;
+}
+
+.product__cart__button button {
+    width: 160px;
+    height: 51px;
+    border: 1px solid #000000;
+    margin-left: 15px;
+
+}
+
+.product__cart__button button a {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.product__cart__all a {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.product__cart__remove a {
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 350px;
+}
+
+.product__cart__payment {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.product__cart__pay button {
+    width: 267px;
+    height: 74px;
+    background: #008078;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.product__cart__pay button a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+}
+.footer__info{
+    width: 1443px;
+    height: 333px;
+    background: #FBF7D1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 16px;
+    margin: 30px 40px;
+}
+.stories{
+    margin: auto;
+}
+.adidasfor{
+    margin: auto;
+}
+.footer {
+    padding: 0 40px;
+    background-color: #fff;
+    margin: auto;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__sp {
+    margin: 40px 0;
+}
+
+.footer__sp span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer__sp p {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.footer__end {
+    width: 1442px;
+    height: 106px;
+    background: #4A4A4A;
+    display: flex;
+    align-items: center;
+    padding: 0 71px;
+    margin-bottom: 30px;
+}
+
+.footer__end__fix {
+    width: 56px;
+    height: 0px;
+    border: 1px solid #FFFCFC;
+    transform: rotate(90deg);
+    margin: 0 20px;
+}
+.footer__end__security{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer__end__account{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer__end__manufacturing{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer__end__adidas{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}

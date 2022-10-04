@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.logo-name {
+    grid-template-columns: 0.1fr 1fr;
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.logo {
+    background-color: #fff;
+}
+
+.name {
+    background-color: #000000;
+    color: #fff;
+    margin-left: -15px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.product__info__list {
+    width: 1362px;
+    height: 934px;
+    background: #2994CF;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 131px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 77px;
+    text-align: center;
+    color: #000000;
+}
+
+.info__name {
+    width: 989px;
+    height: 57px;
+    background: rgba(255, 252, 252, 0.89);
+    border-radius: 15px;
+    border: none;
+    margin: 20px 0;
+}
+
+.product__info__name {
+    margin: 0 200px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.info__email {
+    width: 989px;
+    height: 57px;
+    background: rgba(255, 252, 252, 0.89);
+    border-radius: 15px;
+    border: none;
+    margin: 20px 0;
+}
+
+.product__info__email {
+    margin: 0 200px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product__info__question {
+    margin: 0 200px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.info__question {
+    width: 984px;
+    height: 145px;
+    background: rgba(255, 252, 252, 0.89);
+    mix-blend-mode: normal;
+    border-radius: 15px;
+    border: none;
+    margin: 20px 0;
+}
+.product__info__send button{
+    width: 301px;
+    height: 86px;
+    background: #3CD75E;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+}
+.product__info__send{
+    text-align: center;
+}
+.product__info__send button a{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FDF8F8;
+    text-decoration: none;
+}
+.footer__info {
+    width: 1443px;
+    height: 333px;
+    background: #FBF7D1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 16px;
+    margin: 30px 40px;
+}
+
+.stories {
+    margin: auto;
+}
+
+.adidasfor {
+    margin: auto;
+}
+
+.footer {
+    padding: 0 40px;
+    background-color: #fff;
+    margin: auto;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer__sp {
+    margin: 40px 0;
+}
+
+.footer__sp span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.footer__sp p {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.footer__end {
+    width: 1442px;
+    height: 106px;
+    background: #4A4A4A;
+    display: flex;
+    align-items: center;
+    padding: 0 71px;
+    margin-bottom: 30px;
+}
+
+.footer__end__fix {
+    width: 56px;
+    height: 0px;
+    border: 1px solid #FFFCFC;
+    transform: rotate(90deg);
+    margin: 0 20px;
+}
+
+.footer__end__security {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__account {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__manufacturing {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer__end__adidas {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
